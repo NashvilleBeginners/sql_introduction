@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Name</th>
+      <th>Genre</th>
       <th>Published at</th>
       <th>Publisher</th>
       <th colspan="3"></th>
@@ -16,8 +17,9 @@
     <% @titles.each do |title| %>
       <tr>
         <td><%= title.name %></td>
-        <td><%= title.published_at %></td>
-        <td><%= title.publisher %></td>
+        <td><%= title.genre %></td>
+        <td><%= title.published_at.to_formatted_s(:long_ordinal) %></td>
+        <td><%= title.publisher.name %></td>
         <td><%= link_to 'Show', title %></td>
         <td><%= link_to 'Edit', edit_title_path(title) %></td>
         <td><%= link_to 'Destroy', title, method: :delete, data: { confirm: 'Are you sure?' } %></td>
