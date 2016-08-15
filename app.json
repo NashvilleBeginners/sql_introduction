@@ -1,0 +1,7 @@
+{
+  "name": "Nashville Beginners SQL Introduction",
+  "description": "A Rails 5 app to explore SQL via Heroku dataclips",
+  "repository": "https://github.com/NashvilleBeginners/sql_introduction",
+  "logo": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/6/d/5/8/highres_204087992.jpeg",
+  "keywords": ["Rails", "SQL", "postgres"]
+}

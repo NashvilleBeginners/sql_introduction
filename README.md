@@ -1,24 +1,21 @@
-# README
+# Nashville Beginners SQL Introduction
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Things you may want to cover:
+## Requirements
+* Ruby 2.3.1
+* Rails 5.0.0.1
 
-* Ruby version
+### Setup
+```
+rails db:create db:setup
+rails server
+```
 
-* System dependencies
+### Dataclips
+Visit https://dataclips.heroku.com/ and select the database for the app you
+created via the Heroku button above. From there you can follow along. Ensure
+that you have at least one free dyno scaled up on the web process.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://www.meetup.com/nashville-software-beginners/
