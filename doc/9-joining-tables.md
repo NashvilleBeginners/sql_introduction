@@ -23,7 +23,7 @@ ORDER BY p.name ASC
 ```
 
 ## `LEFT OUTER JOIN`
-```
+```sql
 SELECT a.last_name, a.city AS auth_city, p.city AS pub_city, p.name
 FROM authors a
 LEFT OUTER JOIN publishers p
