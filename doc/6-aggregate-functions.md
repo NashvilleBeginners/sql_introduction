@@ -9,6 +9,6 @@ SQL aggregate functions let you let the DB do the work:
 * `DISTINCT`
 
 ```sql
-SELECT MIN(published_at) as date_min, MAX(published_at) as date_max
+SELECT MIN(published_at) AS date_min, MAX(published_at) AS date_max
 FROM titles
 ```
